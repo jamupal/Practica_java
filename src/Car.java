@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class Car {
+public class Car {
+    public  int door = 0;
+
+    public int getDoor() {
+        return door ++;
+    }
 }
