@@ -37,16 +37,16 @@ public class Tema4 {
         System.out.println("\nInicio ciclo switch \n");
         switch (season.toLowerCase()){
             case "spring":
-                System.out.println("The season entered is "+ season);
+                System.out.println("It's in "+ season);
                 break;
             case "fall":
-                System.out.println("The season entered is "+ season);
+                System.out.println("It's in "+ season);
                 break;
             case "winter":
-                System.out.println("The season entered is "+ season);
+                System.out.println("It's in "+ season);
                 break;
             case "summer":
-                System.out.println("The season entered is  "+ season);
+                System.out.println("It's in  "+ season);
                 break;
             default:
                 System.out.println("The word entered is not a season: " + season);
